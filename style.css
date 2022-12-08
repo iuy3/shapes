@@ -1,26 +1,53 @@
-.square{
-width: 50px;
-height: 50px;
-background-color: #967e5e;
-position: relative;
-left: 20px;
-top: 3px;
-text-align: center;
-text-size-adjust: auto;
-font-size: 20px;
-user-select: none;
-border: solid 2px black;
+body {
+    background-color: bisque;
 }
 
-.triangle{}
-
-.parallelogram{}
 
 
-.circle{}
+.square {
+    width: 50px;
+    height: 50px;
+    background-color: #967e5e;
+    position: relative;
+    left: 20px;
+    top: 3px;
+    text-align: center;
+    text-size-adjust: auto;
+    font-size: 20px;
+    user-select: none;
+    border: solid 2px black;
+    position: relative;
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 50px solid rgb(57, 23, 151);
+
+}
+
+.parallelogram {}
 
 
-div{
+.circle {
+    width: 80px;
+    height: 80px;
+    background: rgb(126, 113, 113);
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    text-align: center;
+    text-size-adjust: auto;
+    font-size: 20px;
+    user-select: none;
+
+
+}
+
+
+div {
     width: 100px;
     height: 100px;
     color: rgb(6, 6, 83);
